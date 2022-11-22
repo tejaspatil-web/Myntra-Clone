@@ -1,0 +1,173 @@
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+
+.left {
+  height: 50px;
+}
+
+.img1 {
+  padding-right: 20px;
+  cursor: pointer;
+}
+
+ul li {
+  list-style-type: none;
+  padding: 0px 12px;
+  margin-top: 15px;
+  cursor: pointer;
+  color: black;
+}
+
+ul a {
+  text-decoration: none;
+}
+
+nav {
+  justify-content: space-between;
+}
+
+.search {
+  width: 25vw;
+  padding: 10px;
+  border: none;
+  border: 0.3px solid gray;
+  background-color: rgb(241, 241, 241);
+}
+
+.searchbtn {
+  width: 80px;
+  height: 37px;
+  margin-left: 1px;
+  cursor: pointer;
+}
+
+#name123 {
+  text-align: center;
+}
+
+.user {
+  font-family: "Open Sans", sans-serif;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  text-align: center;
+}
+
+.user a {
+  text-decoration: none;
+  color: black;
+}
+
+.m-lr {
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+
+.home-img {
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.fix {
+  display: flex;
+  position: fixed;
+  width: 250px;
+  height: 40px;
+  background-color: rgb(65, 65, 65);
+  left: 187.5vh;
+  top: 50vh;
+  transform: rotate(-90deg);
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  letter-spacing: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.n-1 {
+  margin-left: 30px;
+  color: rgb(65, 65, 65);
+  letter-spacing: 5px;
+}
+
+.cards-imgs {
+  margin: 50px 0px 50px 20px;
+  height: 34vh;
+  cursor: pointer;
+}
+
+.cards-imgs1 {
+  margin: 50px 0px 50px 10px;
+  height: 34vh;
+  cursor: pointer;
+}
+
+.cards-imgs2 {
+  margin: 50px 0px 0px 10px;
+  height: 34vh;
+  cursor: pointer;
+}
+
+.cards-imgs3 {
+  margin: 50px 0px 50px 10px;
+  height: 34vh;
+  cursor: pointer;
+}
+.cards-imgs4 {
+  margin: 50px 0px 50px 0px;
+  height: 45vh;
+  cursor: pointer;
+}
+
+.cards {
+  flex-wrap: wrap;
+}
+
+.f-1 {
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.light-mode {
+  height: 25px;
+  display: block;
+  cursor: pointer;
+}
+
+.dark-mode {
+  height: 20px;
+  display: none;
+  cursor: pointer;
+}
+
+.dark-mode-btn {
+  background-color: black;
+}
+
+.bi {
+  position: sticky;
+  top: 93%;
+  left: 95%;
+  border-radius: 20px;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+html {
+  scroll-behavior: smooth;
+}

@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.container {
+  padding: 10px 2vw;
+  margin: auto;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.semibold {
+  font-weight: bold;
+}
+
+.m-lr {
+  margin: 0px 5px;
+}
+
+@media only screen and (max-width: 960px) {
+  .list {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .cards-imgs,
+  .cards-imgs1,
+  .cards-imgs2,
+  .cards-imgs3,
+  .cards-imgs4 {
+    width: 100px;
+    height: 100px;
+  }
+}
